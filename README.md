@@ -1,2 +1,2 @@
-# test
+# Projects
 practice git
