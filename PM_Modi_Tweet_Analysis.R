@@ -55,7 +55,7 @@ inspect(nmodi_corpus[1:4])
 
 
 pull_out_URL<- function(x) gsub('http[[//:alnum]]*', '', x)
-nmodi_corpus<- tm_map(nmodi_corpus, content_transformer(removeURL))
+nmodi_corpus<- tm_map(nmodi_corpus, content_transformer(pull_out_URL))
 
 nmodi_corpus<- tm_map(nmodi_corpus, stripWhitespace)
 inspect(nmodi_corpus[1:4])
