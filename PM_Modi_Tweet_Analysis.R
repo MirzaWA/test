@@ -11,10 +11,10 @@ library(syuzhet)
 ## Register in Twitter and get API ##
 #####################################
 
-api_key <- 'XXXXXXXXXXXXXXXXXXXX'
-api_secret_key <- 'XXXXXXXXXXXXXXXXXXXXX'
-access_token <- 'XXXXXXXXXXXXXXXXXXXXXXXXXXX'
-access_token_secret <- 'XXXXXXXXXXXXXXXXXXXXXXXXX'
+api_key <- 'XXXXXXXXXX'
+api_secret_key <- 'XXXXXXXX'
+access_token <- 'XXXXXXXXXXXX'
+access_token_secret <- 'XXXXXXXXXXXX'
 
 setup_twitter_oauth(api_key,api_secret_key,access_token,access_token_secret)
 
